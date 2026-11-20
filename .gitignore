@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Experiment outputs
+/checkpoints/
+/ckpts/
+/outputs/
+/runs/
+/wandb/
+/tensorboard/
+/logs/
+*.log
+*.out
+
+# Local data and model artifacts
+/data/
+/dataset/
+/models/
+/model/
+*.parquet
+*.jsonl
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+
+# Local configuration/secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+
+# Local release artifacts and private paper source
+/output/
+/14670_Unveiling_Entropy_Perfor.pdf
